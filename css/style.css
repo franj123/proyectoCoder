@@ -1,0 +1,127 @@
+.encabezado{
+    background: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.logo{
+    max-width: 100%;
+    height: auto;
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+/* pregunta */ 
+
+.pregunta{
+    display: grid;
+    grid-column: 1 / 4;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    text-align: center;
+    background: rgb(182, 179, 179);
+    padding: 0.5em;
+
+}
+
+/* fotos */
+.img{
+    grid-column: 1 /4;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-top: 1em;
+    background: url();
+
+}
+.sec1{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: 30px;
+    text-align: center;   
+}
+.sec1 div{
+    display: grid;
+    background: rgb(182, 179, 179);
+    text-transform: uppercase;
+    transition: all 01s ease-out;
+    text-decoration: none;
+    color:black;
+    padding-top: 0.5em;
+    
+}
+.sec1 div:hover{
+    background: rgb(255, 0, 0);
+    color: white;
+    transform: scale(1.1);
+
+}
+.sec1 div img{
+    width: 100%;
+    height: auto;
+
+}
+
+.gp{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.img a{
+    text-decoration: none;
+}
+
+
+/* FRASE */ 
+.frase{
+    background: rgb(182, 179, 179);
+    color: white;
+}
+.frase-txt{
+    background: red;
+    padding: 1em;
+}
+
+/* BLOQUES */
+.motiva{
+    background: rgb(182, 179, 179);
+    text-align: center;
+}
+.motiva-col{
+    transition: all 01s ease-out;
+}
+.motiva-col:hover{
+    transform: scale(1.1);
+
+}
+
+/* ESPACIO PERSONAL */
+.espacio-personal{
+    background-color: rgb(182, 179, 179);
+}
+
+
+
+/* ----  CONTACTO  ---- */
+.form1 {
+    text-align: center;
+}
+.formulario{ 
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(182, 179, 179);
+    padding-right: 350px;
+    padding-left: 350px;
+    color: black;
+} 
+
+
+/* carrusel */
+.img-carrusel{
+    max-width: 350px;
+    height: auto;
+}

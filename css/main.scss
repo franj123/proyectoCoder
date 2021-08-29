@@ -1,0 +1,41 @@
+$ancho: 720px;
+$colorPrimario: rgb(182, 179, 179);
+
+//planes
+
+.tituloPlanes {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.planes{
+    background-color: white;
+    margin: 1rem;
+    &__tarj{
+        display: flex;
+        justify-content: center;
+    }
+    &__basico{
+        background-color: $colorPrimario;
+        margin: 1rem;
+        padding: 1rem   ;
+        width: $ancho/2;
+    }
+    &__titulo{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.pFrase{
+    background: $colorPrimario;
+    color: white;
+}
+
+// nosotros
+
+.acerca{
+    background: $colorPrimario;
+    margin: 1rem;
+    padding: 1rem;
+}

@@ -114,6 +114,21 @@ footer {
   margin-top: 1rem;
 }
 
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 @media only screen and (max-width: 768px) {
   .objetivos__tarj {
     display: -webkit-box;

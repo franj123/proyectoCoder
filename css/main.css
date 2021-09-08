@@ -114,7 +114,7 @@ footer {
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 768px) {
   .objetivos__tarj {
     display: -webkit-box;
     display: -ms-flexbox;

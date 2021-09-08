@@ -44,6 +44,43 @@ $colorPrimario: rgb(182, 179, 179);
     transform: scale(0.5);
 }
 
+// imagenes index
 
+.objetivos{
+    margin: 1rem;
+    background-color: white;
+    transition: all 01s ease-out;
+    &__tarj{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 30px;
+        text-align: center; 
+        transition: all 01s ease-out;
+        width: 1vp;
+    }
+    &__obj{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin: 2rem;
+        width: 1vp;
+    }
+    &__a{
+        padding: 2rem;
+        color: black;
+        background-color: $colorPrimario;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+}
+.objetivos__tarj :hover{
+    background: rgb(255, 0, 0);
+    color: white;
+    transform: scale(1.1);
+}
 
 

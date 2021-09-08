@@ -48,4 +48,66 @@
   margin: 1rem;
   padding: 1rem;
 }
+
+.imagenflacoindex {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.objetivos {
+  margin: 1rem;
+  background-color: white;
+  -webkit-transition: all 01s ease-out;
+  transition: all 01s ease-out;
+}
+
+.objetivos__tarj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  text-align: center;
+  -webkit-transition: all 01s ease-out;
+  transition: all 01s ease-out;
+  width: 1vp;
+}
+
+.objetivos__obj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem;
+  width: 1vp;
+}
+
+.objetivos__a {
+  padding: 2rem;
+  color: black;
+  background-color: #b6b3b3;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.objetivos__tarj :hover {
+  background: red;
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=main.css.map */

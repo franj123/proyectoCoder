@@ -27,7 +27,7 @@
 }
 
 /* fotos */
-.img{
+/* .img{
     grid-column: 1 /4;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -58,7 +58,7 @@
     color: white;
     transform: scale(1.1);
 
-}
+} */
 /*.sec1 div img{
     width: 470px;
     height: auto;
@@ -70,9 +70,9 @@
     text-decoration: none;
     list-style: none;
 }
-.img a{
+/* .img a{
     text-decoration: none;
-}
+} */
 
 
 /* FRASE */ 
@@ -126,9 +126,9 @@
     height: auto;
 }
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
     .sec1{
         display: flex;
         flex-direction: column;
-    }
+    } */
 }

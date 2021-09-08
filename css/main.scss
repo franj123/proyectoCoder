@@ -91,12 +91,18 @@ footer{
 
 
 
-
 @media only screen and (max-width: 768px) {
     .objetivos__tarj{
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+    .acercax{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 2rem;
+
     }
 }
 @media only screen and (max-width: 428px) {

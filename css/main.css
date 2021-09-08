@@ -58,8 +58,6 @@
 .objetivos {
   margin: 1rem;
   background-color: white;
-  -webkit-transition: all 01s ease-out;
-  transition: all 01s ease-out;
 }
 
 .objetivos__tarj {
@@ -75,8 +73,6 @@
           justify-content: center;
   font-size: 30px;
   text-align: center;
-  -webkit-transition: all 01s ease-out;
-  transition: all 01s ease-out;
 }
 
 .objetivos__obj {
@@ -91,6 +87,8 @@
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 2rem;
+  -webkit-transition: all 01s ease-out;
+  transition: all 01s ease-out;
 }
 
 .objetivos__a {

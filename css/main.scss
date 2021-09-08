@@ -7,6 +7,7 @@ $colorPrimario: rgb(182, 179, 179);
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    text-align: center;
 }
 .planes{
     background-color: white;
@@ -24,6 +25,7 @@ $colorPrimario: rgb(182, 179, 179);
     &__titulo{
         display: flex;
         justify-content: center;
+
     }
 }
 
@@ -50,6 +52,7 @@ $colorPrimario: rgb(182, 179, 179);
     margin: 1rem;
     background-color: white;
     transition: all 01s ease-out;
+
     &__tarj{
         display: flex;
         flex-direction: row;
@@ -57,14 +60,13 @@ $colorPrimario: rgb(182, 179, 179);
         font-size: 30px;
         text-align: center; 
         transition: all 01s ease-out;
-        width: 1vp;
+        
     }
     &__obj{
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         margin: 2rem;
-        width: 1vp;
     }
     &__a{
         padding: 2rem;
@@ -84,3 +86,19 @@ $colorPrimario: rgb(182, 179, 179);
 }
 
 
+@media only screen and (max-width: 778px) {
+    .objetivos__tarj{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+}
+@media only screen and (max-width: 428px) {
+    .planes__tarj{
+        display: flex;
+        flex-direction: column;
+    }
+    .planes__basico{
+        width: 80%;
+    }
+}

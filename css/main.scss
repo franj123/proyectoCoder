@@ -1,6 +1,6 @@
 $ancho: 720px;
-$colorPrimario: rgb(182, 179, 179);
-
+// $colorPrimario: rgb(182, 179, 179);
+@import "../partials/colors";
 //planes
 
 .tituloPlanes {
@@ -17,7 +17,7 @@ $colorPrimario: rgb(182, 179, 179);
         justify-content: center;
     }
     &__basico{
-        background-color: $colorPrimario;
+        background-color: $principal;
         margin: 1rem;
         padding: 1rem   ;
         width: $ancho/2;
